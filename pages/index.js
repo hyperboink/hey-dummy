@@ -14,20 +14,21 @@ export default function Home() {
   return (
     <>
       <div className="container">
-        <h1>Random Fake Data!</h1>
+        <div className="categories">
+          <div className="category">
+            <Link href="/persons">Persons</Link>
+          </div>
+          <div className="category cc-icon">
+            <Link href="/credit-cards">Credit Cards</Link>
+          </div>
+          <div className="category users-icon">
+            <Link href="/users">Users</Link>
+          </div>
+          <div className="category content-icon">
+            <Link href="/texts">Texts</Link>
+          </div>
+        </div>
 
-        <ul className="categories">
-          <li><Link href="/persons">Persons</Link></li>
-          <li><Link href="/credit-cards">Credit Cards</Link></li>
-          <li><Link href="/users">Users</Link></li>
-          <li><Link href="/images">Images</Link></li>
-          <li><Link href="/places">Places</Link></li>
-          <li><Link href="/books">Books</Link></li>
-          <li><Link href="/products">Products</Link></li>
-          <li><Link href="/companties">Companies</Link></li>
-          <li><Link href="/texts">Texts</Link></li>
-          <li><Link href="/custom">Custom</Link></li>
-        </ul>
       </div>
     </>
   )

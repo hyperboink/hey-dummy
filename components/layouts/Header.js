@@ -1,15 +1,21 @@
 import Link from "next/link";
+import { useRouter } from 'next/router'
 
 const Header = () => {
+    const router = useRouter();
+
     return ( 
         <div className="header">
             <div className="container">
-                <nav className="navigation">
-                    <ul>
-                        <li><Link href="/">Home</Link></li>
-                        <li><Link href="/">Categories</Link></li>
-                    </ul>
-                </nav>
+                <div className="flex flex-center">
+                    <h1 className="logo"><Link href="/">Hey Dummy!</Link></h1>
+
+                    <nav className="navigation">
+                            {router.asPath !== '/' ? (
+                                <Link href="/"><span>&#8592;</span> Back to Categories</Link>
+                            ) : ''}
+                    </nav>
+                </div>
             </div>
 
             <hr/>

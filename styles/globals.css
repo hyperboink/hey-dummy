@@ -38,6 +38,11 @@ button {
   display: flex;
 }
 
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
 .text-center {
   text-align: center;;
 }
@@ -55,6 +60,17 @@ button {
   -o-border-radius: 5px;
 }
 
+.logo a {
+  text-decoration: none;
+  color: #bb7070;
+}
+
+.navigation {
+  flex: 1;
+  text-align: right;
+  align-items: center;
+}
+
 .navigation ul {
   padding: 0;
 }
@@ -64,8 +80,8 @@ button {
   margin-right: 10px;
 }
 
-.categories {
-  column-count: 2;
+.navigation a {
+  text-decoration: none;
 }
 
 .sidebar {
@@ -129,7 +145,7 @@ button {
 
 .content {
   flex: 1;
-  padding: 0 0 0 20px;
+  padding: 0 0 30px 20px;
   position: relative;
 }
 
@@ -169,6 +185,11 @@ button {
 
 .american-express .avatar{
   background: url(/amex.svg) no-repeat center center;
+}
+
+.user .avatar {
+  background: url(/userpass.svg) no-repeat center center;
+  background-color: #ddd;
 }
 
 
@@ -243,8 +264,39 @@ button {
   cursor: pointer;
 }
 
+.categories {
+  padding: 50px 0 30px;
+}
+
+.category {
+  background: url(/people-icon.svg) no-repeat center left;
+  background-size: contain !important;
+  padding: 15px 0 15px 100px;
+  margin: 0 0 30px;
+  font-size: 32px;
+}
+
+.category.users-icon {
+  background: url(/people-connect-icon.svg) no-repeat center left;
+}
+
+.category.cc-icon {
+  background: url(/cc-icon.svg) no-repeat center left;
+}
+
+.category.content-icon {
+  background: url(/content-icon.svg) no-repeat center left;
+}
+
+.category a,
+.category a:visited {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+
 .footer {
   text-align: right;
-  padding: 10px 0;
+  padding: 20px 0;
   border-top: solid #444 1px;
 }

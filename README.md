@@ -1,1 +1,1 @@
-Next.js
+Hey Dummy! Built using Next.js!
