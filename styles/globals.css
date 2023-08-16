@@ -156,39 +156,39 @@ button {
 }
 
 .male .avatar {
-  background: url(/male.svg) no-repeat center center;
+  background: url('../images/male.svg') no-repeat center center;
   background-color: #9bcbdd;
 }
 
 .female .avatar {
-  background: url(/female.svg) no-repeat center center;
+  background: url('../images/female.svg') no-repeat center center;
   background-color: #d09bdd;
 }
 
 .cc-card .avatar {
-  background: url(/credit-card.svg) no-repeat center center;
+  background: url('../images/credit-card.svg') no-repeat center center;
   padding: 0 90px;
 }
 
 .mastercard .avatar{
-  background: url(/mastercard.svg) no-repeat center center;
+  background: url('../images/mastercard.svg') no-repeat center center;
 }
 
 .discover-card .avatar{
-  background: url(/discovercard.svg) no-repeat center center;
+  background: url('../images/discovercard.svg') no-repeat center center;
 }
 
 .visa .avatar,
 .visa-retired .avatar{
-  background: url(/visa.svg) no-repeat center center;
+  background: url('../images/visa.svg') no-repeat center center;
 }
 
 .american-express .avatar{
-  background: url(/amex.svg) no-repeat center center;
+  background: url('../images/amex.svg') no-repeat center center;
 }
 
 .user .avatar {
-  background: url(/userpass.svg) no-repeat center center;
+  background: url('../images/userpass.svg') no-repeat center center;
   background-color: #ddd;
 }
 
@@ -269,7 +269,7 @@ button {
 }
 
 .category {
-  background: url(/people-icon.svg) no-repeat center left;
+  background: url('../images/people-icon.svg') no-repeat center left;
   background-size: contain !important;
   padding: 15px 0 15px 100px;
   margin: 0 0 30px;
@@ -277,15 +277,15 @@ button {
 }
 
 .category.users-icon {
-  background: url(/people-connect-icon.svg) no-repeat center left;
+  background: url('../images/people-connect-icon.svg') no-repeat center left;
 }
 
 .category.cc-icon {
-  background: url(/cc-icon.svg) no-repeat center left;
+  background: url('../images/cc-icon.svg') no-repeat center left;
 }
 
 .category.content-icon {
-  background: url(/content-icon.svg) no-repeat center left;
+  background: url('../images/content-icon.svg') no-repeat center left;
 }
 
 .category a,
