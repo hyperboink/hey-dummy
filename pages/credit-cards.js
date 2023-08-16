@@ -20,7 +20,7 @@ export const getStaticProps = async() => {
     }
 }
 
-const creditCards = ({creditCardsData}) => {
+const CreditCards = ({creditCardsData}) => {
     const [creditCards, setCreditCards] = useState(creditCardsData);
 
     const [quantity, setQuantity] = useState(5);
@@ -93,4 +93,4 @@ const creditCards = ({creditCardsData}) => {
     )
 }
 
-export default creditCards;
+export default CreditCards;
