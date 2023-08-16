@@ -4,7 +4,7 @@ const nextConfig = {
   images: {
     domains: ['nekos.best'],
   },
-  basePath: '/github-pages',
+  basePath: '/hey-dummy',
 }
 
 module.exports = nextConfig
