@@ -37,7 +37,7 @@ const creditCards = ({creditCardsData}) => {
         }).then(res => res.json());
         
         if(response){
-            setcreditCards(response.data);
+            setCreditCards(response.data);
         }
     }
 
